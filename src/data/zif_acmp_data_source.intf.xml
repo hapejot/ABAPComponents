@@ -3,31 +3,31 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOINTERF>
-    <CLSNAME>ZIF_ACMP_COMMAND</CLSNAME>
+    <CLSNAME>ZIF_ACMP_DATA_SOURCE</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Command</DESCRIPT>
+    <DESCRIPT>general data source</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>
    </VSEOINTERF>
    <DESCRIPTIONS>
     <SEOCOMPOTX>
-     <CLSNAME>ZIF_ACMP_COMMAND</CLSNAME>
-     <CMPNAME>DEF</CMPNAME>
+     <CLSNAME>ZIF_ACMP_DATA_SOURCE</CLSNAME>
+     <CMPNAME>GET_PAGE</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>references the realization of the command</DESCRIPT>
+     <DESCRIPT>Get the n-th chunk of read data</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
-     <CLSNAME>ZIF_ACMP_COMMAND</CLSNAME>
-     <CMPNAME>EXEC</CMPNAME>
+     <CLSNAME>ZIF_ACMP_DATA_SOURCE</CLSNAME>
+     <CMPNAME>READ</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Execute the associated command</DESCRIPT>
+     <DESCRIPT>Preread data into internal cache</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
-     <CLSNAME>ZIF_ACMP_COMMAND</CLSNAME>
-     <CMPNAME>UCOMM</CMPNAME>
+     <CLSNAME>ZIF_ACMP_DATA_SOURCE</CLSNAME>
+     <CMPNAME>RETRIEVE_MULTIPLE</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>specifies the application unique command name</DESCRIPT>
+     <DESCRIPT>retrieve some values of the data source</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>

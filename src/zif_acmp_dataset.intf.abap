@@ -18,4 +18,5 @@ interface ZIF_ACMP_DATASET
     importing
       !I_ROW type ZXRM_PROJECT .
   methods SAVE .
+  methods TABLE .
 endinterface.
