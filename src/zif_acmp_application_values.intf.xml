@@ -10,6 +10,26 @@
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>
    </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_ACMP_APPLICATION_VALUES</CLSNAME>
+     <CMPNAME>SYNC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>tell the object to synchronize data with repository</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_ACMP_APPLICATION_VALUES</CLSNAME>
+     <CMPNAME>VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get or set a single value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_ACMP_APPLICATION_VALUES</CLSNAME>
+     <CMPNAME>VALUES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get or set multiple values from a structure</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
   </asx:values>
  </asx:abap>
 </abapGit>

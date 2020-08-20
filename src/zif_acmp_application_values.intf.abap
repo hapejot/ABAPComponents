@@ -1,19 +1,21 @@
 "! <p class="shorttext synchronized" lang="en">Setting for the application</p>
-INTERFACE zif_acmp_application_values
-  PUBLIC .
+interface ZIF_ACMP_APPLICATION_VALUES
+  public .
 
-  METHODS:
-    "! get or set a single value
-    value
-      IMPORTING
-                key           TYPE string
-                val           TYPE string OPTIONAL
-      RETURNING VALUE(result) TYPE string,
-    "! get or set a set of values by passing a structure
-    values
-      IMPORTING
-        sturct  TYPE any OPTIONAL
-      CHANGING
-        cstruct TYPE any OPTIONAL.
-  METHODS sync .
-ENDINTERFACE.
+
+  "! <p class="shorttext synchronized" lang="en">get or set a single value</p>
+  methods VALUE
+    importing
+      !KEY type STRING
+      !VAL type STRING optional
+    returning
+      value(RESULT) type STRING .
+  "! <p class="shorttext synchronized" lang="en">get or set multiple values from a structure</p>
+  methods VALUES
+    importing
+      !STURCT type ANY optional
+    changing
+      !CSTRUCT type ANY optional .
+  "! <p class="shorttext synchronized" lang="en">tell the object to synchronize data with repository</p>
+  methods SYNC .
+endinterface.
