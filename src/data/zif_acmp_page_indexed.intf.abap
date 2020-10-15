@@ -1,8 +1,8 @@
-interface ZIF_ACMP_PAGE_INDEXED
-  public .
+INTERFACE zif_acmp_page_indexed
+  PUBLIC .
 
 
-  interfaces ZIF_ACMP_PAGING .
+  INTERFACES zif_acmp_paging .
 
-  methods PAGE_AT .
-endinterface.
+  METHODS page_at .
+ENDINTERFACE.

@@ -1,8 +1,7 @@
-interface ZIF_ACMP_DATA_CONSUMER
-  public .
+INTERFACE zif_acmp_data_consumer
+  PUBLIC .
 
 
-  methods SET_DATA_SOURCE
-    importing
-      !I_DATA_SOURCE type ref to ZIF_BC_DATA_SOURCE .
-endinterface.
+  METHODS set_data_source       IMPORTING
+                                  i_data_source TYPE REF TO zif_acmp_data_source .
+ENDINTERFACE.
